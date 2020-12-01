@@ -13,7 +13,7 @@ import subprocess
 import numpy as np
 import pandas as pd
 
-# ./sim_attach_exp.py --out_dir /ccb/salz8-1/avaraby/tx_noise/analysis_21042020 --base_dir_data /ccb/salz8-1/avaraby/tx_noise/data/ --base_dir_out /ccb/salz8-1/avaraby/tx_noise/data/gtex_aggs/ --num_tissues 3 --threads 30 --seed 101 > /ccb/salz8-1/avaraby/tx_noise/analysis_21042020/sim_attach_exp.log
+# ./sim_attach_exp.py --out_dir analysis_21042020 --base_dir_data data/ --base_dir_out data/gtex_aggs/ --num_tissues 3 --threads 30 --seed 101 > analysis_21042020/sim_attach_exp.log
 
 def get_tpms(row,idx):
     tpms = row.tpms.split(";")

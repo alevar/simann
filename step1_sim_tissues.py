@@ -13,7 +13,7 @@ import subprocess
 import numpy as np
 import pandas as pd
 
-# ./sim_tissues.py --out_dir /ccb/salz8-1/avaraby/tx_noise/analysis_21042020 --base_dir_data /ccb/salz8-1/avaraby/tx_noise/data/ --base_dir_out /ccb/salz8-1/avaraby/tx_noise/data/gtex_aggs/ --num_tissues 3 --seed 101 > /ccb/salz8-1/avaraby/tx_noise/analysis_21042020/sim_tissues.log
+# ./sim_tissues.py --out_dir analysis_21042020 --base_dir_data data/ --base_dir_out data/gtex_aggs/ --num_tissues 3 --seed 101 > analysis_21042020/sim_tissues.log
 
 def sim_tissues(args):
     base_dir_data = os.path.abspath(args.base_dir_data)+"/"

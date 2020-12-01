@@ -15,7 +15,7 @@ import subprocess
 import numpy as np
 import pandas as pd
 
-# ./sim_samples.py --out_dir /ccb/salz8-1/avaraby/tx_noise/analysis_21042020 --base_dir_data /ccb/salz8-1/avaraby/tx_noise/data/ --base_dir_out /ccb/salz8-1/avaraby/tx_noise/data/gtex_aggs/ --num_tissues 3 --num_samples 10 --seed 101 > /ccb/salz8-1/avaraby/tx_noise/analysis_21042020/sim_samples.log
+# ./sim_samples.py --out_dir analysis_21042020 --base_dir_data data/ --base_dir_out data/gtex_aggs/ --num_tissues 3 --num_samples 10 --seed 101 > analysis_21042020/sim_samples.log
 
 random_seed_inc = 0
 
